@@ -1,0 +1,46 @@
+const help1 = (prefix) => {
+
+	return `
+╠═════✪〘 GRUPO 〙✪═════
+║➣ *USADOS SOMENTE POR ADMIN'S*
+║
+╠➣ COMANDO: ${prefix}add
+╠➣ DESC: Adicionar membro ao grupo
+╠➣ USO: ${prefix}add 55xxxxxxxx\n
+╠➣ NOTA: O bot precisa ser um admin!\n
+║
+╠➣ COMANDO: ${prefix}kick
+╠➣ DESC: Banir membros do grupo
+╠➣ USO: ${prefix}kick @tag do membro\n
+╠➣ NOTA: O bot precisa ser um admin!\n
+║➣ OBS: Não faça o bot remover duas pessoas ao mesmo tempo!\n
+║
+╠➣ COMANDO: ${prefix}promote
+╠➣ DESC: Promove um membro a ser admin
+╠➣ USO: ${prefix}promote @tag do membro\n
+╠➣ NOTA: O bot precisa ser um admin!\n
+║
+╠➣ COMANDO: ${prefix}demote
+╠➣ DESC: Promove um admin a ser membro comum
+╠➣ USO: ${prefix}demote @tag do admin\n
+╠➣ NOTA: O bot precisa ser um admin!\n
+║
+╠➣ COMANDO: ${prefix}linkgroup
+╠➣ DESC: Obtenha o link do grupo
+╠➣ USO: Apenas envie o comando\n
+╠➣ NOTA: O bot precisa ser um admin!\n
+║
+╠➣ COMANDO: ${prefix}tagall
+╠➣ DESC: Marca todos os membros do grupo
+╠➣ USO: Apenas envie o comando
+╠➣ NOTA: Você precisa ser um admin!\n
+║
+╠➣ COMANDO: ${prefix}simih
+╠➣ DESC: Ative o modo simi no grupo
+╠➣ ATIVAR: ${prefix}simih 1 para ativar 
+╠➣ DESATIVAR: ${prefix}simih 0 para desativar 
+╠➣ NOTA: Você precisa ser um admin\n
+
+}
+exports.help1 = help1
+
